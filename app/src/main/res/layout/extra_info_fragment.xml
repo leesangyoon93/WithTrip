@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.8"
+            android:includeFontPadding="false"
+            android:cursorVisible="false" />
+
+        <TextView
+            android:id="@+id/genderMale"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/selector_gender_male" />
+
+        <TextView
+            android:id="@+id/genderFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/selector_gender_female" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/completeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_light"
+        android:text="완료"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!---->
+        <!--<EditText-->
+            <!--android:id="@+id/telInput"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!---->
+        <!---->
+    <!--</LinearLayout>-->
+
+
+</android.support.constraint.ConstraintLayout>
